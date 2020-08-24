@@ -23,7 +23,7 @@ class Backup
 
     public function generateSecureString(): string
     {
-        $symbols = "!@#$%^&*()_+=-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        $symbols = "!@#$%^&*()_+,=-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         $symbolsLength = strlen($symbols);
         $generateString = '';
 
